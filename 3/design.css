@@ -1,0 +1,17 @@
+.container {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.menu-item-bg {
+    background-color: #ffffff;
+}
+
+.menu-item {
+    height: 300px;
+    display: block;
+    object-fit: contain;
+    margin: 20px auto;
+}

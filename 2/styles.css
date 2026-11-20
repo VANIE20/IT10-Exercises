@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 20px;
+    background: #65cc79;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.profile {
+    max-width: 604px;
+    margin: 124px auto 20px;
+    padding: 0 30px 22px;
+    background: white;
+}
+
+.portrait {
+    width: 264px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    margin-top: -118px;
+    border: 6px solid #80b53b;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 26px 0 18px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.track {
+    margin: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.biography {
+    max-width: 464px;
+    margin: 74px auto 61px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.social-links a:focus-visible {
+    outline: 3px solid #20592b;
+    outline-offset: 5px;
+}
